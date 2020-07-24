@@ -1,0 +1,4 @@
+>: ionic g page recipes
+>: ionic g page recipes/recipe-detail
+>: ionic g component recipes/recipe-item
+>: ionic g service recipes/recipe
