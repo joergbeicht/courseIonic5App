@@ -2,3 +2,22 @@
 >: ionic g page recipes/recipe-detail
 >: ionic g component recipes/recipe-item
 >: ionic g service recipes/recipe
+
+// native mit capacitor vorbereiten
+Capacitor nachträglich installieren
+===================================
+>: ng build
+>: npm install --save @capacitor/core @capacitor/cli
+>: npx cap init
+>: npx cap add android
+>: npx cap add ios
+
+1. capacitor.config.json anpassen mit "appId": "com.myappname.cmgmt"
+>: ng build
+>; ionic capacitor copy android => kopiert den www Order, der mit build erstellt wird nach android
+>: ionic capacitor run android => macht ng build und copy android automatisch und startet android Studio
+>: ionic capacitor run android -l
+
+
+
+
